@@ -29,3 +29,11 @@ Arabrew bridges the linguistic gap between Arabic and Hebrew by providing an eng
 - Educational institutions teaching Middle Eastern languages
 - Cultural exchange programs
 - Self-directed language enthusiasts
+
+
+## Educational Use License
+[![License: MIT](Documentation media/LICENSE.svg)](LICENSE)
+- Educational institutions: Free use
+- Personal learning: Free use  
+- Commercial use: Requires separate commercial license
+- No redistribution for commercial purposes
