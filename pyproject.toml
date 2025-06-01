@@ -1,0 +1,37 @@
+[tool.flake8]
+max_line_length = 120
+extend-ignore = ["E203", "E501"]
+exclude = [
+    ".git",
+    "__pycache__",
+    "migrations",
+    "venv",
+    "env",
+    "static",
+    "media",
+    "settings.py",
+    "urls.py",
+    "wsgi.py",
+    "asgi.py",
+]
+per-file-ignores = [
+    "*/settings.py: E501",
+    "*/urls.py: E501",
+]
+max-complexity = 10
+select = [
+    "E",  # Pycodestyle errors
+    "W",  # Pycodestyle warnings
+    "F",  # Pyflakes
+    "C",  # McCabe complexity
+    "B",  # Bugbear
+]
+
+[tool.djlint]
+ignore = "H014,H031"
+exclude = [
+    "static",
+    "media",
+]
+indent = 4
+max_line_length = 120
